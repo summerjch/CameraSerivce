@@ -15,9 +15,3 @@ target_link_libraries(optical_flow ${OpenCV_LIBS})
 
 add_executable(circle_detection src/circle_detection.cpp)
 target_link_libraries(circle_detection ${OpenCV_LIBS})
-
-# add_executable(test1 src/test1.cpp)
-# target_link_libraries(test1 ${OpenCV_LIBS})
-
-# add_executable(test2 src/test2.cpp)
-# target_link_libraries(test2 ${OpenCV_LIBS})
