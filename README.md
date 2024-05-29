@@ -43,6 +43,8 @@ The whole application is built based on `OpenCV` and `Boost.Interprocess`, since
 
 Most of the work is trying to fullfil the requirement "Make sure the frames are synchronized such that both of the processed frames are displayed with the original frame they were processed from."
 
+![image info](./design.png)
+
 Fist define the share memory layout which used for frame buffer transfer and processes synchronization.
 ```cpp
 struct BufferMemory {
